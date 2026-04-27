@@ -1,6 +1,7 @@
 # GroupProject
 Group project for DSC 232
 
+**100 Million+ Steam Reviews**
 Link to dataset:
 https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 
