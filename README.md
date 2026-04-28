@@ -16,9 +16,7 @@ https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 
 a. How many observations does your dataset have?
 
-  ==There are 113,885,601 observations==
-
-  ==highlight==
+  `There are 113,885,601 observations`
 
 b. Describe all columns in your dataset: their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
 
