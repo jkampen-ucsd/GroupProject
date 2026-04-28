@@ -18,7 +18,7 @@ Group project for DSC 232
 
 ### a. How many observations does your dataset have?
 
-**Answer:** The dataset has **113,885,601 observations**.
+**Answer:** The dataset has **`113,885,601 observations`**.
 
 ---
 
