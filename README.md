@@ -1,18 +1,18 @@
 # GroupProject
 Group project for DSC 232
 
-## **100 Million+ Steam Reviews**
+## 1. GitHub Repository Setup
 
 Link to dataset:
 https://www.kaggle.com/datasets/kieranpoc/steam-reviews
+**`100 Million+ Steam Reviews`**
 
-
-## SDSC Expanse Environment Setup
+## 2. SDSC Expanse Environment Setup
 
 <img width="2242" height="983" alt="Screenshot 2026-04-27 165421" src="https://github.com/user-attachments/assets/80254bb5-31e4-46f4-802c-8a0657ee7c14" />
 
 
-## Data Exploration using Spark
+## 3. Data Exploration using Spark
 
 a. How many observations does your dataset have?
 
@@ -120,7 +120,7 @@ d. For image data: describe number of classes, image sizes, uniformity, cropping
 **`N/A`**
 
 
-## Data Plots
+## 4. Data Plots
 
 a. Create visualizations using Spark aggregations + matplotlib/plotly (sample data for plotting if needed)
 
@@ -131,7 +131,7 @@ c. Clearly explain each plot and what insights it provides
 d. For image data: plot example classes
 
 
-## Preprocessing
+## 5. Preprocessing
 
 - How will you handle missing values?
 
