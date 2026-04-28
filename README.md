@@ -18,6 +18,8 @@ a. How many observations does your dataset have?
 
   ==There are 113,885,601 observations==
 
+  ==highlight==
+
 b. Describe all columns in your dataset: their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
 
 c. Do you have missing and duplicate values in your dataset?
