@@ -16,13 +16,13 @@ Group project for DSC 232
 
 ## 3. Data Exploration Using Spark
 
-### 3a. How many observations does your dataset have?
+### a. How many observations does your dataset have?
 
 **Answer:** The dataset has **113,885,601 observations**.
 
 ---
 
-### 3b. Describe all columns in your dataset, including their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
+### b. Describe all columns in your dataset, including their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
 
 **Columns:**
 
@@ -113,13 +113,13 @@ These variables uniquely identify records or entities and should not be treated 
 
 ---
 
-### 3c. Do you have missing and duplicate values in your dataset?
+### c. Do you have missing and duplicate values in your dataset?
 
 **Answer:** Yes. There are missing values in many columns. Duplicate values should also be checked using Spark before preprocessing.
 
 ---
 
-### 3d. For image data, describe the number of classes, image sizes, uniformity, and cropping/normalization needs.
+### d. For image data, describe the number of classes, image sizes, uniformity, and cropping/normalization needs.
 
 **Answer:** Not applicable. This dataset contains tabular and text review data, not image data.
 
