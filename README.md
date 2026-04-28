@@ -141,7 +141,7 @@ Missing values will be handled based on the type and importance of each feature.
 - **Categorical columns** such as `language` and `steam_china_location` will be filled with `"Unknown"` or the most frequent category.
 - **Text data** in the `review` column will be dropped if missing because the review text is critical for analysis.
 - **Datetime columns** will be converted to timestamp format and used to create time-based features.
-- Columns with excessive missing values may be dropped if they do not add meaningful signal.
+- Columns with excessive missing values may be dropped if they do not add anything meaningful.
 
 ---
 
@@ -152,10 +152,6 @@ The target variable `voted_up` may be imbalanced if there are more positive revi
 To handle imbalance:
 
 - Analyze class distribution using `groupBy().count()`.
-- Use downsampling for the majority class if needed.
-- Use upsampling for the minority class if needed.
-- Consider class weights if supported by the selected model.
-- Evaluate model performance using F1-score, precision, recall, and AUC instead of accuracy alone.
 
 ---
 
@@ -166,7 +162,6 @@ To handle imbalance:
 - Create `review_length` from the `review` text.
 - Create time-based features from timestamp columns.
 - Create recency features such as days since review or days since last played.
-- Apply log transformations to highly skewed columns such as playtime and vote counts.
 
 #### Scaling
 
