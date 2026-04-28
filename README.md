@@ -168,7 +168,7 @@ This scatter plot shows the relationship between total playtime and weighted vot
 
 ## Data Preprocessing Strategy
 
-### Handling Missing Values
+### How will you handle missing values?
 Missing values will be handled based on the type and importance of each feature:
 
 - **Numerical columns** (e.g., playtime, votes):
@@ -183,7 +183,7 @@ Missing values will be handled based on the type and importance of each feature:
 
 ---
 
-### Handling Data Imbalance
+### How will you handle data imbalance (if applicable)?
 The target variable `voted_up` may be imbalanced (more positive than negative reviews). To address this:
 
 - Analyze class distribution using `groupBy().count()`.
@@ -195,7 +195,7 @@ The target variable `voted_up` may be imbalanced (more positive than negative re
 
 ---
 
-### Transformations
+### What transformations will you apply (scaling, encoding, feature engineering)?
 
 #### Feature Engineering
 - Create new features such as:
@@ -221,7 +221,7 @@ The target variable `voted_up` may be imbalanced (more positive than negative re
 
 ---
 
-### Spark Operations for Preprocessing
+### What Spark operations will you use for preprocessing?
 
 The following Spark DataFrame and MLlib operations will be used:
 
