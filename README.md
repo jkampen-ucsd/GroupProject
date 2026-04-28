@@ -125,31 +125,9 @@ d. For image data: describe number of classes, image sizes, uniformity, cropping
 
 ## 4. Data Plots
 
-The visualizations were created using Spark DataFrame operations for aggregation and sampling. Aggregated or sampled results were then converted to Pandas only for plotting with Matplotlib.
+**`These are not running for me`**
 
-### Review Sentiment Distribution
-This bar chart shows the distribution of the target variable `voted_up`. It helps identify whether the dataset is balanced between positive and negative reviews.
-
-### Top Review Languages
-This bar chart shows the most common review languages in the dataset. It helps determine whether the dataset is dominated by a small number of languages.
-
-### Top Games by Review Count
-This chart shows which games have the largest number of reviews. This is useful for identifying whether certain games dominate the dataset.
-
-### Total Playtime Distribution
-The histogram of `author_playtime_forever` shows how total playtime is distributed among reviewers. This variable is expected to be right-skewed, with most users having lower playtime and a smaller number having very high playtime.
-
-### Review Length Distribution
-The review length histogram shows the distribution of text length in the `review` column. This is useful for understanding the structure of the text data before applying NLP methods.
-
-### Average Playtime by Review Sentiment
-This bar chart compares average playtime between positive and negative reviews. It helps evaluate whether users who recommend a game tend to have more playtime.
-
-### Playtime vs Weighted Vote Score
-This scatter plot shows the relationship between total playtime and weighted vote score. It helps identify whether reviews from users with more playtime tend to receive higher helpfulness scores.
-
-
-
+---
 
 ## 5. Preprocessing
 
