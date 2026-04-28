@@ -16,7 +16,7 @@ https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 
 a. How many observations does your dataset have?
 
-`There are 113,885,601 observations`
+**`There are 113,885,601 observations`**
 
 b. Describe all columns in your dataset: their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
 
@@ -111,17 +111,13 @@ These variables uniquely identify records or entities and are not meaningful for
 
 ---
 
-### Notes
-- Playtime-related variables are likely **right-skewed** and may require transformation.
-- The target variable (`voted_up`) may be **class imbalanced**, with more positive than negative reviews.
-- Identifier variables should **not be used directly as numeric features** in modeling.
-
-
 c. Do you have missing and duplicate values in your dataset?
 
-
+**`Yes, there are missing values in just about every column`**
 
 d. For image data: describe number of classes, image sizes, uniformity, cropping/normalization needs.
+
+**`N/A`**
 
 
 ## Data Plots
