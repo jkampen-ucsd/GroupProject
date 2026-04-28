@@ -122,18 +122,6 @@ d. For image data: describe number of classes, image sizes, uniformity, cropping
 
 ## 4. Data Plots
 
-a. Create visualizations using Spark aggregations + matplotlib/plotly (sample data for plotting if needed)
-
-b. Plot your data with various chart types: bar charts, histograms, scatter plots, etc.
-
-c. Clearly explain each plot and what insights it provides
-
-d. For image data: plot example classes
-
-
-
-## Visualizations
-
 The visualizations were created using Spark DataFrame operations for aggregation and sampling. Aggregated or sampled results were then converted to Pandas only for plotting with Matplotlib.
 
 ### Review Sentiment Distribution
