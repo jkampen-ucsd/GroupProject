@@ -1,6 +1,6 @@
 # Group Project
 
-Group project for DSC 232.
+Group project for DSC 232
 
 ## 1. GitHub Repository Setup
 
