@@ -127,33 +127,7 @@ These variables uniquely identify records or entities and should not be treated 
 
 ## 4. Data Plots
 
-Spark aggregations can be used to summarize the full dataset, and smaller samples can be converted to Pandas for plotting with Matplotlib or Plotly.
-
-### Recommended Visualizations
-
-#### Bar Chart: Review Counts by Language
-
-**Purpose:** Shows which languages are most common in the dataset.
-
-**Insight:** This helps identify dominant languages and whether language imbalance may affect modeling.
-
-#### Bar Chart: Positive vs. Negative Reviews
-
-**Purpose:** Shows the class distribution of the target variable, `voted_up`.
-
-**Insight:** This helps determine whether the dataset has class imbalance.
-
-#### Histogram: Author Playtime at Review
-
-**Purpose:** Shows the distribution of playtime when the review was written.
-
-**Insight:** This helps identify skewness and whether a log transformation may be useful.
-
-#### Scatter Plot: Playtime vs. Weighted Vote Score
-
-**Purpose:** Shows the relationship between user playtime and review helpfulness.
-
-**Insight:** This helps determine whether users with more playtime tend to receive higher weighted vote scores.
+**`The charts will not run for me for some reason it just sits forever`**
 
 ---
 
