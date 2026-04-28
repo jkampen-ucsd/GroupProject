@@ -11,12 +11,15 @@ https://www.kaggle.com/datasets/kieranpoc/steam-reviews
 
 <img width="2242" height="983" alt="Screenshot 2026-04-27 165421" src="https://github.com/user-attachments/assets/80254bb5-31e4-46f4-802c-8a0657ee7c14" />
 
+---
 
 ## 3. Data Exploration using Spark
 
 a. How many observations does your dataset have?
 
 **`There are 113,885,601 observations`**
+
+---
 
 b. Describe all columns in your dataset: their scales and data distributions. Describe categorical and continuous variables. Describe your target column.
 
