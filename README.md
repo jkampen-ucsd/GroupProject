@@ -2,8 +2,6 @@
 
 Steam Review Recommendation Prediction Using Distributed Spark ML
 
----
-
 # Project Overview
 
 The goal of this project is to predict whether a Steam review is positive or negative (`voted_up`) using distributed machine learning with Apache Spark on SDSC Expanse.
@@ -16,13 +14,49 @@ The project uses:
 - Spark ML Pipelines
 - SDSC Expanse distributed computing environment
 
----
-
 # Dataset
 
+Dataset Source
 [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews)
 
-## 2. SDSC Expanse Environment Setup
+Dataset Description
+
+The dataset contains Steam game review information including:
+
+Review text
+Gameplay statistics
+Voting behavior
+Purchase metadata
+Recommendation labels
+
+# SDSC Expanse Environment Setup
 
 <img width="2242" height="983" alt="SDSC Expanse Environment Screenshot" src="https://github.com/user-attachments/assets/80254bb5-31e4-46f4-802c-8a0657ee7c14" />
 
+Spark UI Screenshots
+Data Loading
+
+Distributed Training
+
+Data Preprocessing
+Preprocessing Pipeline
+
+The preprocessing pipeline was implemented using Spark MLlib transformers and Spark DataFrame operations.
+
+Scaling
+StandardScaler
+Missing Value Handling
+Spark ML Imputer
+Median imputation
+Encoding
+StringIndexer
+OneHotEncoder
+VectorAssembler
+Feature Engineering
+
+The following custom features were created:
+
+Feature	Description
+review_length	Length of review text
+playtime_hours	Total playtime converted to hours
+helpful_ratio	Ratio of helpful votes to funny votes
