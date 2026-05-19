@@ -14,8 +14,6 @@ This project uses:
 - Feature Engineering
 - Scalable preprocessing pipelines
 
----
-
 # Dataset
 
 ## Dataset Source
