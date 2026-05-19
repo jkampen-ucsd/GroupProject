@@ -41,7 +41,7 @@ Distributed Training
 Data Preprocessing
 Preprocessing Pipeline
 
-The preprocessing pipeline was implemented using Spark MLlib transformers and Spark DataFrame operations.
+# The preprocessing pipeline was implemented using Spark MLlib transformers and Spark DataFrame operations.
 
 Scaling
 - StandardScaler
