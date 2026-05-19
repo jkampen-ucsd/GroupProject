@@ -44,19 +44,23 @@ Preprocessing Pipeline
 The preprocessing pipeline was implemented using Spark MLlib transformers and Spark DataFrame operations.
 
 Scaling
-StandardScaler
-Missing Value Handling
-Spark ML Imputer
-Median imputation
-Encoding
-StringIndexer
-OneHotEncoder
-VectorAssembler
-Feature Engineering
+- StandardScaler
 
+Missing Value Handling
+- Spark ML Imputer
+- Median imputation
+
+Encoding
+- StringIndexer
+- OneHotEncoder
+- VectorAssembler
+
+Feature Engineering
 The following custom features were created:
 
-Feature	Description
-review_length	Length of review text
-playtime_hours	Total playtime converted to hours
-helpful_ratio	Ratio of helpful votes to funny votes
+| Feature        | Description                           |
+| -------------- | ------------------------------------- |
+| review_length  | Length of review text                 |
+| playtime_hours | Total playtime converted to hours     |
+| helpful_ratio  | Ratio of helpful votes to funny votes |
+
