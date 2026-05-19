@@ -16,8 +16,6 @@ This project uses:
 
 # Dataset
 
-## Dataset Source
-
 [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews)
 
 ---
