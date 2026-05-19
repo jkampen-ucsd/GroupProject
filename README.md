@@ -185,7 +185,7 @@ To handle imbalance:
 
 ---
 
-### What transformations will you apply?
+### What transformations will you apply to the data?
 
 #### Feature Engineering
 
