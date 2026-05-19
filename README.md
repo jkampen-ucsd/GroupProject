@@ -25,7 +25,7 @@ This project uses:
 
 <img width="2242" height="983" alt="SDSC Expanse Environment Screenshot" src="https://github.com/user-attachments/assets/80254bb5-31e4-46f4-802c-8a0657ee7c14" />
 
----
+
 
 | Column                         | Description               |
 | ------------------------------ | ------------------------- |
