@@ -1,6 +1,6 @@
 # Group Project - Milestone 3
 
-# Steam Review Recommendation Prediction Using Distributed Spark ML
+Steam Review Recommendation Prediction Using Distributed Spark ML
 
 ---
 
