@@ -19,15 +19,14 @@ The project uses:
 Dataset Source
 [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews)
 
-Dataset Description
+# Dataset Description
 
 The dataset contains Steam game review information including:
-
-Review text
-Gameplay statistics
-Voting behavior
-Purchase metadata
-Recommendation labels
+- Review text
+- Gameplay statistics
+- Voting behavior
+- Purchase metadata
+- Recommendation labels
 
 # SDSC Expanse Environment Setup
 
