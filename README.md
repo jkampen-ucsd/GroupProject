@@ -88,18 +88,18 @@ The following evaluation metrics were used:
 
 Model 1 Results:
 | Metric   | Training | Testing |
-| -------- | -------------------- | ------- |
-| Accuracy | 0.8560705781351379   | 0.8562484590187031 |
-| AUC      | 0.7657615900860155   | 0.7624049083243485 |
+| -------- | ------- | ------- |
+| Accuracy | 0.856   | 0.856 |
+| AUC      | 0.765   | 0.762 |
 
 # Hyperparameter Tuning
 
 Model 2 Configuration:
 Model 2 Results:
 | Metric   | Training | Testing |
-| -------- | -------------------- | ------- |
-| Accuracy | 0.8560705781351379   | 0.8562484590187031 |
-| AUC      | 0.7657615900860155   | 0.7624049083243485 |
+| -------- | -------- | ------- |
+| Accuracy | 0.875   | 0.858 |
+| AUC      | 0.812   | 0.768 |
 
 ## Underfitting vs Overfitting Analysis
 
