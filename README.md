@@ -132,8 +132,6 @@ The Random Forest model was able to successfully learn patterns related to:
 
 The close alignment between training and testing performance suggests that the selected hyperparameters (`numTrees=50`, `maxDepth=10`) helped control model complexity while still capturing meaningful relationships in the data.
 
----
-
 ## Potential Improvements
 
 Although the model performs reasonably well, performance could potentially be improved through:
