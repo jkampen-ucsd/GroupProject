@@ -96,8 +96,9 @@ Model 1 Results:
 # Hyperparameter Tuning
 
 Model 2 Configuration:
-| Model   | Num Trees | Max Depth | Train Accuracy | Validation Accuracy | Test Accuracy | Train AUC | Validation AUC | Test AUC |
-| ------- | --------- | --------- | -------------- | ------------------- | ------------- | --------- | -------------- | -------- |
-| Model 1 | 50        | 10        | INSERT         | INSERT              | INSERT        | INSERT    | INSERT         | INSERT   |
-| Model 2 | 100       | 15        | INSERT         | INSERT              | INSERT        | INSERT    | INSERT         | INSERT   |
+Model 2 Results:
+| Metric   | Training | Testing |
+| -------- | -------------------- | ------- |
+| Accuracy | 0.8560705781351379   | 0.8562484590187031 |
+| AUC      | 0.7657615900860155   | 0.7624049083243485 |
 
