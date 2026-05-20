@@ -32,11 +32,6 @@ The dataset contains Steam game review information including:
 # SDSC Expanse Environment Setup
 <img width="935" height="645" alt="image" src="https://github.com/user-attachments/assets/30248ed6-c594-4e4e-92c9-97af17078ad8" />
 
-Spark UI Screenshots
-Data Loading
-
-Distributed Training
-
 # Preprocessing Pipeline
 
 The preprocessing pipeline was implemented using Spark MLlib transformers and Spark DataFrame operations.
