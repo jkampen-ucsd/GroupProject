@@ -19,7 +19,6 @@ The project uses:
 Dataset Source:
 
 [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews)
-<img width="356" height="129" alt="image" src="https://github.com/user-attachments/assets/67f3dfdd-6d2c-4180-88cc-ad99a179f051" />
 
 # Dataset Description
 
@@ -32,6 +31,7 @@ The dataset contains Steam game review information including:
 
 # SDSC Expanse Environment Setup
 <img width="935" height="645" alt="image" src="https://github.com/user-attachments/assets/30248ed6-c594-4e4e-92c9-97af17078ad8" />
+<img width="356" height="129" alt="image" src="https://github.com/user-attachments/assets/67f3dfdd-6d2c-4180-88cc-ad99a179f051" />
 
 # Preprocessing Pipeline
 
