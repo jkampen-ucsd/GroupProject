@@ -102,3 +102,46 @@ Model 2 Results:
 | Accuracy | 0.8560705781351379   | 0.8562484590187031 |
 | AUC      | 0.7657615900860155   | 0.7624049083243485 |
 
+## Underfitting vs Overfitting Analysis
+
+The Random Forest model appears to be reasonably well fit and demonstrates strong generalization performance.
+
+The training and testing metrics are extremely close:
+
+- Train AUC: 0.7658
+- Test AUC: 0.7624
+- Train Accuracy: 0.8561
+- Test Accuracy: 0.8562
+
+Because the training and testing scores are nearly identical, the model does not show significant signs of overfitting. Overfitting would typically appear as very high training performance with noticeably lower testing performance.
+
+The model also does not appear to be severely underfitting because:
+- Accuracy is relatively strong at approximately 85.6%
+- AUC values above 0.75 indicate the model has meaningful predictive power and can reasonably distinguish between positive and negative reviews
+
+Overall, the model demonstrates stable and balanced performance across both the training and testing datasets, indicating good generalization to unseen data.
+
+## Interpretation of Results
+
+The Random Forest model was able to successfully learn patterns related to:
+- Gameplay behavior
+- Review engagement
+- Voting activity
+- Purchase information
+- Engineered features such as review length and helpfulness ratio
+
+The close alignment between training and testing performance suggests that the selected hyperparameters (`numTrees=50`, `maxDepth=10`) helped control model complexity while still capturing meaningful relationships in the data.
+
+---
+
+## Potential Improvements
+
+Although the model performs reasonably well, performance could potentially be improved through:
+- Additional hyperparameter tuning
+- Larger dataset samples
+- Advanced NLP preprocessing on review text
+- TF-IDF or Word2Vec embeddings
+- Gradient Boosted Trees or distributed XGBoost
+- Better handling of class imbalance
+
+Future milestones will explore more advanced distributed models to potentially improve predictive performance further.
