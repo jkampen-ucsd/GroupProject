@@ -16,7 +16,8 @@ The project uses:
 
 # Dataset
 
-Dataset Source
+Dataset Source:
+
 [100 Million+ Steam Reviews](https://www.kaggle.com/datasets/kieranpoc/steam-reviews)
 
 # Dataset Description
@@ -53,7 +54,7 @@ Encoding
 - OneHotEncoder
 - VectorAssembler
 
-Feature Engineering
+# Feature Engineering
 The following custom features were created:
 
 | Feature        | Description                           |
