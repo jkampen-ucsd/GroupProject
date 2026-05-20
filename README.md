@@ -30,8 +30,7 @@ The dataset contains Steam game review information including:
 - Recommendation labels
 
 # SDSC Expanse Environment Setup
-
-<img width="2242" height="983" alt="SDSC Expanse Environment Screenshot" src="https://github.com/user-attachments/assets/80254bb5-31e4-46f4-802c-8a0657ee7c14" />
+<img width="935" height="645" alt="image" src="https://github.com/user-attachments/assets/30248ed6-c594-4e4e-92c9-97af17078ad8" />
 
 Spark UI Screenshots
 Data Loading
