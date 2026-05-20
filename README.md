@@ -63,3 +63,34 @@ The following custom features were created:
 | playtime_hours | Total playtime converted to hours     |
 | helpful_ratio  | Ratio of helpful votes to funny votes |
 
+# Machine Learning Model
+
+Selected Model:
+- Random Forest Classifier
+
+# Spark ML Pipeline
+
+Pipeline Stages:
+- Imputer
+- StringIndexer
+- OneHotEncoder
+- VectorAssembler
+- StandardScaler
+- RandomForestClassifier
+
+# Model Evaluation
+
+Evaluation Metrics
+The following evaluation metrics were used:
+- Accuracy
+- Area Under ROC Curve (AUC)
+
+# Model Results
+
+Model 1 Results:
+| Metric   | Training | Validation | Testing |
+| -------- | -------- | ---------- | ------- |
+| Accuracy | INSERT   | INSERT     | INSERT  |
+| AUC      | INSERT   | INSERT     | INSERT  |
+
+
