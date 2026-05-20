@@ -88,10 +88,10 @@ The following evaluation metrics were used:
 # Model Results
 
 Model 1 Results:
-| Metric   | Training | Validation | Testing |
-| -------- | -------- | ---------- | ------- |
-| Accuracy | INSERT   | INSERT     | INSERT  |
-| AUC      | INSERT   | INSERT     | INSERT  |
+| Metric   | Training | Testing |
+| -------- | -------------------- | ------- |
+| Accuracy | 0.8560705781351379   | 0.8562484590187031 |
+| AUC      | 0.7657615900860155   | 0.7624049083243485 |
 
 # Hyperparameter Tuning
 
